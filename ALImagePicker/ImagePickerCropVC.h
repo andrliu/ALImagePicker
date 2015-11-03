@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ImagePickerCropVCDelegate <NSObject>
+
+- (void)imageDidCropped:(UIImage *)image;
+
+@end
+
 @interface ImagePickerCropVC : UIViewController
+
+@property UIImage *image;
+@property CGFloat ratio;
+@property (weak, nonatomic) id<ImagePickerCropVCDelegate> delegate;
 
 @end

@@ -13,6 +13,7 @@
 		49F52A4C1BDF2E480039C9FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F52A4A1BDF2E480039C9FA /* Main.storyboard */; };
 		49F52A4E1BDF2E480039C9FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F52A4D1BDF2E480039C9FA /* Assets.xcassets */; };
 		49F52A511BDF2E480039C9FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F52A4F1BDF2E480039C9FA /* LaunchScreen.storyboard */; };
+		49F52A5A1BDF2F5A0039C9FA /* ImagePickerCropVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F52A591BDF2F5A0039C9FA /* ImagePickerCropVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		49F52A4D1BDF2E480039C9FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49F52A501BDF2E480039C9FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49F52A521BDF2E480039C9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F52A581BDF2F5A0039C9FA /* ImagePickerCropVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerCropVC.h; sourceTree = "<group>"; };
+		49F52A591BDF2F5A0039C9FA /* ImagePickerCropVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerCropVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				49F52A451BDF2E480039C9FA /* AppDelegate.m */,
 				49F52A471BDF2E480039C9FA /* ViewController.h */,
 				49F52A481BDF2E480039C9FA /* ViewController.m */,
+				49F52A581BDF2F5A0039C9FA /* ImagePickerCropVC.h */,
+				49F52A591BDF2F5A0039C9FA /* ImagePickerCropVC.m */,
 				49F52A4A1BDF2E480039C9FA /* Main.storyboard */,
 				49F52A4D1BDF2E480039C9FA /* Assets.xcassets */,
 				49F52A4F1BDF2E480039C9FA /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F52A5A1BDF2F5A0039C9FA /* ImagePickerCropVC.m in Sources */,
 				49F52A491BDF2E480039C9FA /* ViewController.m in Sources */,
 				49F52A461BDF2E480039C9FA /* AppDelegate.m in Sources */,
 				49F52A431BDF2E480039C9FA /* main.m in Sources */,
@@ -262,6 +268,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrliu.www.ALImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrliu.www.ALImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
